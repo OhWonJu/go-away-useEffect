@@ -1,0 +1,57 @@
+{
+  "name": "react-framer-motion-scroll",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.5",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.3.0-canary-6c7b41da3-20231123",
+    "react-dom": "^18.3.0-canary-6c7b41da3-20231123",
+    "react-error-boundary": "^4.0.11",
+    "react-intersection-observer": "^9.5.3",
+    "react-intl": "^6.5.5",
+    "react-router-dom": "^6.20.0",
+    "react-toastify": "^9.1.3",
+    "sort-by": "^1.2.0",
+    "styled-components": "^6.1.1",
+    "styled-normalize": "^8.1.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/body-scroll-lock": "^3.1.2",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "twin.macro": "^3.4.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
+  }
+}
