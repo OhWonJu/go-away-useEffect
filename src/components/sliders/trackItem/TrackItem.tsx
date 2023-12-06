@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Col } from "../../../styles/GlobalStyle";
 import { Track } from "../../../lib/client/types/Track";
 import { QueuePlayIconBox } from "./TrackItem.styles";

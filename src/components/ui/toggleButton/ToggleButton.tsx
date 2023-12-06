@@ -1,5 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import React from "react";
 import { ToggleButtonWrapper, ToggleHandle } from "./ToggleButton.styles";
 import useToggle from "../../../lib/client/hooks/useToggle";
 

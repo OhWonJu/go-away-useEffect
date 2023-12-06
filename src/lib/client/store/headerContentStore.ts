@@ -13,7 +13,7 @@ const HeaderContentStore = create<HeaderContentStoreProps>((set) => ({
 
   //  ACTION
   setHeaderContent: (headerContent: string, headerSubContent?: string) => {
-    set((state) => ({ headerContent, headerSubContent }));
+    set(() => ({ headerContent, headerSubContent }));
   },
 }));
 

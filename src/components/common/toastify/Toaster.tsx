@@ -1,4 +1,4 @@
-import useTheme from "../../../lib/client/hooks/useTheme";
+// import useTheme from "../../../lib/client/hooks/useTheme";
 import { Container } from "./Toast.styles";
 
 import "react-toastify/dist/ReactToastify.css";
