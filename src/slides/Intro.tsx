@@ -25,7 +25,7 @@ export const Intro = () => {
   // const targetTime = new Date("2023/12/06/17:05:00").getTime();
 
   const timePromise = axios.get(
-    "http://worldtimeapi.org/api/timezone/Asia/seoul"
+    "https://worldtimeapi.org/api/timezone/Asia/seoul"
   );
 
   return (
